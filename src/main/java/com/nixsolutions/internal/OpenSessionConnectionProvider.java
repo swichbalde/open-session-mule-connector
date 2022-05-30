@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 public class OpenSessionConnectionProvider
     implements PoolingConnectionProvider<OpenSessionConnection> {
 
-    private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     private final Logger LOGGER = LoggerFactory.getLogger(OpenSessionConnectionProvider.class);
 
     @Parameter
